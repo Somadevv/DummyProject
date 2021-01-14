@@ -82,37 +82,38 @@ body,
 .headerContainer {
   width: 100vw;
   height: 8rem;
-  background: url(/images/header_bg.png) no-repeat;
+  background: url(images/header_bg.png) no-repeat;
   background-size: 100% 100%;
 }
 .headerContainer p {
-  margin-left: 12.5rem;
-  margin-top: -5.25rem;
+  margin-right: 6.85%;
+  margin-top: -5rem;
   color: gray;
   padding-right: 4rem;
 }
 
 /* Logo */
 .logo-plane {
-  background: url(/images/logo_plane.png) no-repeat;
+  background: url(images/logo_plane.png) no-repeat;
+  background-size: contain;
   margin-top: 3rem;
-  margin-left: 5rem;
+  margin-left: 10.5%;
   width: 10rem;
   height: 5rem;
   display: inline-block;
 }
 
 #logo {
-  padding-top: 0.5rem;
+  padding-top: 0.75rem;
   padding-left: 0.5rem;
   width: 9rem;
-  height: 3.8rem;
+  height: 3.5rem;
 }
 
 /* Main Nav Bar */
 
 .navList {
-  padding-right: 4rem;
+  padding-right: 8.5%;
   margin-bottom: 3rem;
   margin-top: 1rem;
 }
@@ -124,6 +125,12 @@ body,
   color: var(--red);
   font-weight: 900;
 }
+.list-item {
+  text-decoration: none;
+  }
+  .navItem:hover {
+    color: black;
+    }
 
 /* Cards & Main Content */
 
@@ -131,15 +138,16 @@ body,
   margin: 0 auto;
   width: 100vw;
   height: auto;
-  background: url(/images/page_grad.png) no-repeat;
-  background-size: cover;
+  background: url(images/page_grad.png) no-repeat;
+  background-size: 100% 100%;
+  padding-top: 2.5rem;
 }
 
 .introImage {
   margin: 0 auto;
   width: 78.75vw;
   height: 15rem;
-  background: url(/images/image1.jpg) no-repeat center right;
+  background: url(images/image1.jpg) no-repeat center right;
   background-size: cover;
   margin-bottom: 2rem;
 }
@@ -159,21 +167,21 @@ section {
 }
 .textArea {
   padding: 1rem;
-  background: url(/images/content_plane_bg.png);
+  background: url(images/content_plane_bg.png);
   height: 4rem;
   margin-top: -3px;
   text-transform: uppercase;
 }
 .contentTitle {
   padding: 1rem;
-  background: url(/images/dark\ background.jpg);
+  background: url(images/dark\ background.jpg);
   height: 3rem;
   margin-top: -3px;
   text-transform: uppercase;
 }
 .contentArea {
   padding: 1rem;
-  background: url(/images/content_plane_bg.png);
+  background: url(images/content_plane_bg.png);
   height: 29rem;
   margin-top: -3px;
   text-transform: uppercase;
@@ -184,7 +192,9 @@ section {
   max-width: 100%;
   padding: 0.5rem;
 }
-
+.cardTitle {
+  width: 75%;
+  }
 .card-sm {
   display: inline-block;
   vertical-align: top;
