@@ -1,1 +1,1 @@
-# A webpage built only using raw HTML & Css for a interview submission.
+# A webpage built only using raw HTML & CSS for a interview submission.
